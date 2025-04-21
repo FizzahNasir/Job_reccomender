@@ -1,6 +1,33 @@
-venv/
+# Python Bytecode
 __pycache__/
 *.pyc
-*.pkl
+*.pyo
+
+# Virtual environment folder
+venv/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# macOS
 .DS_Store
+
+# Environment variables
 .env
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# Data files (e.g., large CSV, model files)
+*.pkl
+*.csv
+
+# Logs
+*.log
+
+# Other Python tools (coverage reports, etc.)
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
